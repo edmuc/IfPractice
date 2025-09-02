@@ -15,10 +15,10 @@
 #    print ("La condicion no se ejecuto")
 
 
-X= int ("12")
-Y= int ("55")
-Z= int ("6")
-W= int ("33")
+X= int(input("Ingrese el valor de X: "))
+Y= int(input("Ingrese el valor de Y: "))
+Z= int(input("Ingrese el valor de Z: "))
+W= int(input("Ingrese el valor de W: "))
 
 # Mayor que
 if X > Z:
