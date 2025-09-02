@@ -1,3 +1,3 @@
 #Esta es la documentación
 
-![Texto alternativo](./ifpractice/imagen.png)
+![Texto alternativo](./1.png/)
