@@ -20,35 +20,38 @@ Y= int ("55")
 Z= int ("6")
 W= int ("33")
 
-if (X>=Z):
-    print (f"Este el el resultado {X}")
-    print (f"La variable a es igual a: {X}")
-
+# Mayor que
+if X > Z:
+    print(f"{X} es mayor que {Z}")
 else:
-    print ("La condicion no se ejecuto")
+    print(f"{X} no es mayor que {Z}")
 
-
-if (W<W):
-    print ("Verdadero")
-    print (f"La variable a es igual a: {W}")
+# Menor que
+if W < Y:
+    print(f"{W} es menor que {Y}")
 else:
-    print ("La condicion es falsa")
+    print(f"{W} no es menor que {Y}")
 
-
-if (Y==Z):
-    print ("")
-    print (f"La variable a es igual a: {Y}")
-else: 
-    print ("La condicion no se ejecuto")
-    
-if  (X<=W):
-    print ("")
-    print (f"La variable a es igual a: {X}")
+# Igual que
+if X == Z:
+    print(f"{X} es igual a {Z}")
 else:
-    print ("La condicion no se ejecuto")
+    print(f"{X} no es igual a {Z}")
 
-if  (X+Y<=W):
-    print ("")
-    print (f"La variable a es igual a: {W}")
+# Mayor o igual que
+if Y >= W:
+    if Y > W:
+        print(f"{Y} es mayor que {W}, pero no igual")
+    else:
+        print(f"{Y} es igual a {W}")
 else:
-    print ("La condicion no se ejecuto")
+    print(f"{Y} no es mayor o igual que {W}")
+
+# Menor o igual que
+if Z <= X:
+    if Z < X:
+        print(f"{Z} es menor que {X}, pero no igual")
+    else:
+        print(f"{Z} es igual a {X}")
+else:
+    print(f"{Z} no es menor o igual que {X}")
